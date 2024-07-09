@@ -202,13 +202,13 @@ body {
     align-items: center;
     margin-top: 48px;
     border-radius: 16px;
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .card-content2 {
     width: 600px;
     height: 219px;
-    
+
 }
 
 .card-content2 h2 {
@@ -284,5 +284,61 @@ body {
     height: 240px;
 }
 
-
 /* why web development section ends here */
+
+/* my inpiration section starts here */
+
+.my-inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-inspiration h1 {
+    margin-top: 90px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.my-inspiration p {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.inspirational-content {
+    width: 852px;
+    height: 113px;
+    margin-bottom: 48px;
+}
+
+.iframe-container {
+    margin-top: 120px;
+    width: 1140px;
+    height: 614px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 15px;
+}
+
+iframe {
+    border-radius: 16px;
+}
+
+/* my inpiration section ends here */
