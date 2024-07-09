@@ -13,7 +13,7 @@ body {
 /* cover section starts here */
 
 .cover-section {
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     background-size: cover;
     margin: 0 auto;
     width: 1440px;
